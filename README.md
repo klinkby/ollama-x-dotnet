@@ -24,5 +24,5 @@ winget install -e Microsoft.DotNet.SDK.9
 - Ollama running on http://localhost:11434
 ```bash
 docker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
-docker exec -it ollama ollama run llama3.2:1b
+docker exec -it ollama ollama run gemma:2b
 ```
